@@ -5,6 +5,8 @@
     --white: hsl(0, 0%, 100%);
     --gray-500: hsl(0, 0%, 42%);
     --gray-950: hsl(0, 0%, 7%);
+    --ExtraBold-font: ExtraBold;
+    --Medium-font: Medium;
 }
 /* End Variables */
 /* Start Fonts */
@@ -61,20 +63,20 @@ body {
     padding: 5px 10px;
     background-color: var(--yellow);
     width: fit-content;
-    font-family: ExtraBold;
+    font-weight: 800;
     font-size: 11px;
 }
 .published {
     font-size: 14px;
     color: var(--gray-950);
-    font-family: Medium;
+    font-weight: 500;
 }
 h1 {
     font-size: 20px;
 }
 p {
     color: var(--gray-500);
-    font-family: Medium;
+    font-weight: 500;
     font-size: 16px;
     margin-bottom: 20px;
     line-height: 1.5;
@@ -88,6 +90,6 @@ p {
     width: 30px;
 }
 .text {
-    font-family: ExtraBold;
+    font-weight: 800;
     font-size: 11px;
 }
