@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Abdul-RahmanNasser/blog-preview-card)
+- Live Site URL: [Add live site URL here](https://abdul-rahmannasser.github.io/blog-preview-card/)
 
 ## My process
 
@@ -73,9 +73,9 @@ I want to continue focusing on in responsive, flexbox, css framework, css grid.
 
 ## Author
 
-- Website - [Add your name here](http://127.0.0.1:5500/index.html)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Abdul-Rahman Nasser](http://127.0.0.1:5500/index.html)
+- Frontend Mentor - [@Abdul-RahmanNasser](https://www.frontendmentor.io/profile/Abdul-RahmanNasser)
+- Twitter - [@NasrAlstar](https://x.com/NasrAlstar)
 
 ## Acknowledgments
 

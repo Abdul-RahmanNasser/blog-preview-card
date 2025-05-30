@@ -40,7 +40,7 @@ body {
     border: 1px solid black;
     box-shadow: 10px 10px;
     padding: 20px;
-    width: 400px;
+    width: 390px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
@@ -57,12 +57,12 @@ body {
 }
 .learning {
     display: block;
-    margin: 20px 0;
+    margin: 20px 0 10px;
     padding: 5px 10px;
     background-color: var(--yellow);
     width: fit-content;
     font-family: ExtraBold;
-    font-size: 13px;
+    font-size: 11px;
 }
 .published {
     font-size: 14px;
@@ -70,7 +70,7 @@ body {
     font-family: Medium;
 }
 h1 {
-    font-size: 25px;
+    font-size: 20px;
 }
 p {
     color: var(--gray-500);
@@ -89,4 +89,5 @@ p {
 }
 .text {
     font-family: ExtraBold;
+    font-size: 11px;
 }
