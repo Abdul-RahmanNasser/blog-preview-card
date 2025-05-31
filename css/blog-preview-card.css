@@ -24,6 +24,9 @@
     appearance: none;
 }
 /* End Global Rules */
+html {
+    font-size: 20px;
+}
 main {
     width: 100vw;
     height: 100vh;
@@ -36,8 +39,8 @@ main {
     background-color: var(--white);
     border: 1px solid black;
     box-shadow: 10px 10px;
-    padding: 20px;
-    width: 390px;
+    padding: 1em;
+    width: 380px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
@@ -55,25 +58,25 @@ main {
 .learning {
     display: block;
     margin: 20px 0 10px;
-    padding: 5px 10px;
+    padding: 0.25em 0.5em;
     background-color: var(--yellow);
     width: fit-content;
     font-family: ExtraBold;
-    font-size: 11px;
+    font-size: 0.6em;
 }
 .published {
-    font-size: 14px;
+    font-size: 0.76em;
     color: var(--gray-950);
     font-family: Medium;
 }
 h1 {
-    font-size: 20px;
+    font-size: 1em;
     font-family: ExtraBold;
 }
 p {
     color: var(--gray-500);
     font-family: Medium;
-    font-size: 16px;
+    font-size: 0.76em;
     margin-bottom: 20px;
     line-height: 1.5;
 }
@@ -87,5 +90,5 @@ p {
 }
 .text {
     font-family: ExtraBold;
-    font-size: 11px;
+    font-size: 0.6em;
 }
