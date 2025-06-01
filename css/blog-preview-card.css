@@ -1,0 +1,94 @@
+/* Start Global Rules */
+/* Start Variables */
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --gray-500: hsl(0, 0%, 42%);
+    --gray-950: hsl(0, 0%, 7%);
+}
+/* End Variables */
+/* Start Fonts */
+@font-face {
+    font-family: ExtraBold;
+    src: url(../assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Medium;
+    src: url(../assets/fonts/static/Figtree-Medium.ttf);
+}
+/* End Fonts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* End Global Rules */
+html {
+    font-size: clamp(16px, 2vw, 20px);
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background-color: var(--white);
+    border: 1px solid black;
+    box-shadow: 10px 10px;
+    padding: 1em;
+    width:clamp(300px, 80vw, 380px);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+}
+.image {
+    width: 100%;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+}
+.learning {
+    display: block;
+    width: fit-content;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    padding: 0.25em 0.5em;
+    background-color: var(--yellow);
+    font-family: ExtraBold, Arial, Helvetica, sans-serif;
+    font-size: 0.6em;
+}
+.published {
+    font-size: 0.76em;
+    color: var(--gray-950);
+    font-family: Medium, Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 1em;
+    font-family: ExtraBold, Arial, Helvetica, sans-serif;
+}
+p {
+    color: var(--gray-500);
+    font-family: Medium, Arial, Helvetica, sans-serif;
+    font-size: 0.76em;
+    margin-block-end: 20px;
+    line-height: 1.5;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo img {
+    width: 30px;
+}
+.text {
+    font-family: ExtraBold, Arial, Helvetica, sans-serif;
+    font-size: 0.6em;
+}
